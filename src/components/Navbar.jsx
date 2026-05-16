@@ -19,7 +19,7 @@ const Navbar = () => {
     setMounted(true);
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
-      const sections = ["home", "achievements", "about", "services", "backend", "process", "skills", "projects", "codeshowcase", "assignments", "timeline", "faq", "contact"];
+      const sections = ["home", "about", "services", "techstack", "projects", "contact"];
       const scrollPosition = window.scrollY + 100;
       for (const section of sections) {
         if (section === "home") {
