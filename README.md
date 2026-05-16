@@ -1,7 +1,6 @@
 # 🚀 Ashikur Rahman — Developer Portfolio
 
 A modern, high-performance, fully responsive portfolio website built with Next.js, Tailwind CSS, Framer Motion, and GSAP.
-
 Designed to showcase projects, skills, services, and interactive UI/UX experiences with smooth animations and premium aesthetics.
 
 ---

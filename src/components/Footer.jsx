@@ -37,7 +37,6 @@ const Footer = () => {
       {/* Copyright */}
       <p className="max-w-xl text-[10px] sm:text-[11px] font-heading font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] leading-relaxed text-on-surface-variant/80 px-2 sm:px-0">
         © 2026 Ashikur Rahman. Full-Stack Developer from Bangladesh.
-        Designing High-Performance Solutions.
       </p>
     </div>
 
@@ -49,7 +48,7 @@ const Footer = () => {
         href="https://github.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-primary/20"
+        className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-green-500 hover:border-green-500/50 hover:bg-green-500/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-green-500/20"
       >
         GitHub
       </a>
@@ -59,7 +58,7 @@ const Footer = () => {
         href="https://www.facebook.com/share/1BSH2Ezp2n"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-primary/20"
+        className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-green-500 hover:border-green-500/50 hover:bg-green-500/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-green-500/20"
       >
         Facebook
       </a>
