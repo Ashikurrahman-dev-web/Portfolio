@@ -154,21 +154,21 @@ const Hero = () => {
         {/* Subtitle */}
         <div className="flex flex-col gap-3 sm:gap-4">
           
-          <span className="block text-xs sm:text-lg md:text-xl opacity-90 font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-zinc-500 leading-relaxed">
+<span className="block text-xs sm:text-lg md:text-xl opacity-90 font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-zinc-500 leading-relaxed">
             Full-Stack Developer & MERN Stack Developer from Bangladesh
           </span>
 
           {/* Role Rotator */}
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-2 text-xl sm:text-2xl md:text-3xl font-bold text-zinc-500">
+<div className="flex flex-wrap items-center gap-x-2 gap-y-2 text-xl sm:text-2xl md:text-3xl font-bold text-zinc-500">
             
-            <span className="shrink-0">I&apos;m a</span>
+  <span className="shrink-0">I&apos;m a</span>
 
             <div
-              className="relative h-10 sm:h-12 overflow-hidden"
-              style={{
-                minWidth: "clamp(160px, 45vw, 380px)",
-              }}
-            >
+  className="relative h-10 sm:h-12 overflow-hidden"
+  style={{
+    width: "clamp(220px, 60vw, 380px)",
+  }}
+>
               <AnimatePresence mode="wait">
                 <motion.span
                   key={roleIndex}
@@ -196,7 +196,7 @@ const Hero = () => {
                     duration: 0.6,
                     ease: [0.16, 1, 0.3, 1],
                   }}
-                  className="absolute left-0 top-1/2 -translate-y-1/2 whitespace-nowrap font-black text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-cyan-500"
+className="absolute left-0 top-1/2 -translate-y-1/2 font-black text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-cyan-500"
                   style={{
                     textShadow:
                       "0 0 20px rgba(74,222,128,0.5)",
