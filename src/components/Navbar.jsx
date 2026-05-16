@@ -39,8 +39,8 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "/#home", id: "home" },
     { name: "About", href: "/#about", id: "about" },
-    { name: "Services", href: "/#services", id: "services" },
     { name: "Projects", href: "/#projects", id: "projects" },
+    { name: "Services", href: "/#services", id: "services" },
     { name: "Contact", href: "/#contact", id: "contact" },
   ];
 
@@ -83,7 +83,7 @@ const Navbar = () => {
         <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-primary/20 bg-black border border-outline-variant/20 dark:border-white/10">
           <Image
             src="/logo.png"
-            alt="MH Shanto Logo"
+            alt="Ashik Logo"
             fill
             className="object-cover"
             priority
@@ -91,7 +91,7 @@ const Navbar = () => {
           />
         </div>
 
-        <span className="hidden sm:block text-lg md:text-2xl font-black tracking-tight text-on-background transition-colors">
+        <span className="block text-base sm:text-lg md:text-2xl font-black tracking-tight text-on-background transition-colors">
           A<span className="text-[#FFD700] -ml-[0.35em]">R</span>
         </span>
       </Link>
@@ -148,7 +148,7 @@ const Navbar = () => {
 <Magnetic strength={0.3}>
       <Link
         href="/hire"
-        className="hidden sm:flex bg-gradient-to-r from-green-500 via-cyan-500 text-white px-4 md:px-6 py-2.5 rounded-2xl font-bold text-xs hover:opacity-90 transition-opacity shadow-lg items-center justify-center cursor-pointer whitespace-nowrap"
+        className="flex text-[11px] sm:text-xs bg-gradient-to-r from-green-500 via-cyan-500 text-white px-3 sm:px-4 md:px-6 py-2.5 rounded-2xl font-bold hover:opacity-90 transition-opacity shadow-lg items-center justify-center cursor-pointer whitespace-nowrap"
       >
         Hire Me
       </Link></Magnetic>
