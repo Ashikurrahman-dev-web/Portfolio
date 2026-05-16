@@ -51,6 +51,7 @@ const TechStack = () => {
 
   return (
     <section
+    ref={TechStack}
   id="techstack"
   className="px-4 sm:px-6 lg:px-8 py-[80px] sm:py-[110px] lg:py-[130px]"
 >
