@@ -193,14 +193,15 @@ className="hidden sm:flex bg-gradient-to-r from-green-500 via-cyan-500 text-whit
             >
               {link.name}
             </Link>
-            <Link
+            
+          </motion.div>
+        ))}
+        <Link
   href="/hire"
   className="flex text-[11px] sm:text-xs bg-gradient-to-r from-green-500 via-cyan-500 text-white px-3 sm:px-4 md:px-6 py-2.5 rounded-2xl font-bold hover:opacity-90 transition-opacity shadow-lg items-center justify-center cursor-pointer whitespace-nowrap"
 >
   Hire Me
 </Link>
-          </motion.div>
-        ))}
       </motion.div>
     )}
   </AnimatePresence>
