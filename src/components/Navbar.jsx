@@ -76,12 +76,7 @@ const Navbar = () => {
   >
     {/* Logo */}
     <Magnetic strength={0.3}>
-      <Link
-        href="/#home"
-        onClick={(e) => handleLinkClick(e, "/#home")}
-        className="flex items-center gap-2 sm:gap-3 group shrink-0"
-      >
-        <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-primary/20 bg-black border border-outline-variant/20 dark:border-white/10">
+      <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-primary/20 bg-black border border-outline-variant/20 dark:border-white/10">
           <Image
             src="/logo.png"
             alt="Ashik Logo"
@@ -95,7 +90,7 @@ const Navbar = () => {
         <span className="block text-base sm:text-lg md:text-2xl font-black tracking-tight text-on-background transition-colors">
           A<span className="text-[#FFD700] -ml-[0.35em]">R</span>
         </span>
-      </Link>
+    
     </Magnetic>
 
     {/* Desktop Nav */}

@@ -45,7 +45,7 @@ const Footer = () => {
       
       {/* GitHub */}
       <a
-        href="https://github.com/"
+        href="https://github.com/Ashikurrahman-dev-web/Ashikur-Rahman-Developer"
         target="_blank"
         rel="noopener noreferrer"
         className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-green-500 hover:border-green-500/50 hover:bg-green-500/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-green-500/20"

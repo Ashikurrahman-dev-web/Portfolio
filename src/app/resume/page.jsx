@@ -17,10 +17,12 @@ const ResumePage = () => {
     name: "Ashikur Rahman",
     title: "Full-Stack Developer",
     contact: {
+      phone: "+8801989815238",
       email: "ashikurrahman88722@gmail.com",
+      linkedin: "www.linkedin.com/in/ashikur-rahman-6559a93b3",
         location: "Dhaka, Bangladesh",
     },
-    summary: "Professional Full-Stack Developer and Software Engineer with a deep focus on building high-performance, scalable web applications. Expert in the MERN stack and Next.js, with a passion for clean architecture and seamless user experiences. Built 10+ real-world projects and constantly seeking to push the boundaries of modern web technologies.",
+    summary: "Aspiring Full-Stack Developer with a deep focus on building high-performance, scalable web applications. Expert in the MERN stack and Next.js, with a passion for clean architecture and seamless user experiences. Built 5+ real-world projects and constantly seeking to push the boundaries of modern web technologies.",
     skills: {
       frontend: ["React.js", "Next.js", "Tailwind CSS", "GSAP", "Framer Motion", "Redux"],
       backend: ["Node.js", "Express.js",  "MongoDB"],
@@ -31,7 +33,7 @@ const ResumePage = () => {
         role: "Full Stack Developer Journey",
         company: "Self-Taught · Freelance Projects",
         period: "2026",
-        description: "Built 10+ real-world projects including ecommerce platforms, social media apps, and developer tools. Specialized in MERN stack development, focusing on performance optimization and scalable architectures.",
+        description: "Built 5+ real-world projects including ecommerce platforms, social media apps, and developer tools. Specialized in MERN stack development, focusing on performance optimization and scalable architectures.",
         tags: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind"],
       },
       
@@ -76,63 +78,105 @@ const ResumePage = () => {
             </motion.p>
           </div>
           <div className="flex flex-col gap-2 text-sm sm:text-base opacity-80 font-medium">
+            <h1 className="text-xl sm:text-2xl font-bold opacity-90 mt-2">Contact me</h1>
+            <span className="flex items-center gap-2">
+              <span className="material-symbols-outlined text-sm">phone</span>
+              {data.contact.phone}
+            </span>
             <span className="flex items-center gap-2">
               <span className="material-symbols-outlined text-sm">mail</span>
               {data.contact.email}
             </span>
             <span className="flex items-center gap-2">
+              <span className="material-symbols-outlined text-sm">linkedin</span>
+              {data.contact.linkedin}
+            </span>
+            <span className="flex items-center gap-2">
               <span className="material-symbols-outlined text-sm">location_on</span>
               {data.contact.location}
             </span>
-            
-            
-          </div>
+               </div>
         </header>
 
         <div className="p-8 sm:p-12 space-y-10">
           
           <section>
             <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-4 border-b border-green-500/20 pb-2 print:text-black">
-              Professional Summary
+              Profile
             </h2>
             <p className="text-on-surface-variant leading-relaxed text-lg print:text-black">
               {data.summary}
             </p>
           </section>
-
-          {/* Skills */}
           <section>
-            <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-6 border-b border-green-500/20 pb-2 print:text-black">
-              Technical Expertise
-            </h2>
-            <div className="grid sm:grid-cols-3 gap-8">
-              <div>
-                <h3 className="font-bold mb-3 text-cyan-500 uppercase tracking-wider text-sm print:text-black">Frontend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {data.skills.frontend.map(s => (
-                    <span key={s} className="px-3 py-1 bg-green-500/5 border border-green-500/10 rounded-lg text-xs font-bold print:border-gray-200">{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <h3 className="font-bold mb-3 text-cyan-500 uppercase tracking-wider text-sm print:text-black">Backend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {data.skills.backend.map(s => (
-                    <span key={s} className="px-3 py-1 bg-green-500/5 border border-green-500/10 rounded-lg text-xs font-bold print:border-gray-200">{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <h3 className="font-bold mb-3 text-cyan-500 uppercase tracking-wider text-sm print:text-black">Tools</h3>
-                <div className="flex flex-wrap gap-2">
-                  {data.skills.tools.map(s => (
-                    <span key={s} className="px-3 py-1 bg-surface-container-highest border border-outline-variant/10 rounded-lg text-xs font-bold print:border-gray-200">{s}</span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </section>
+  <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-6 border-b border-green-500/20 pb-2 print:text-black">
+    Technical Expertise
+  </h2>
 
+  <div className="space-y-8">
+    
+    {/* Frontend */}
+    <div className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
+      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
+
+      <h3 className="font-bold mb-3 text-cyan-500 uppercase tracking-wider text-sm print:text-black">
+        Frontend
+      </h3>
+
+      <div className="flex flex-wrap gap-2">
+        {data.skills.frontend.map((s) => (
+          <span
+            key={s}
+            className="px-3 py-1 bg-green-500/5 border border-green-500/10 rounded-lg text-xs font-bold print:border-gray-200"
+          >
+            {s}
+          </span>
+        ))}
+      </div>
+    </div>
+
+    {/* Backend */}
+    <div className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
+      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
+
+      <h3 className="font-bold mb-3 text-cyan-500 uppercase tracking-wider text-sm print:text-black">
+        Backend
+      </h3>
+
+      <div className="flex flex-wrap gap-2">
+        {data.skills.backend.map((s) => (
+          <span
+            key={s}
+            className="px-3 py-1 bg-green-500/5 border border-green-500/10 rounded-lg text-xs font-bold print:border-gray-200"
+          >
+            {s}
+          </span>
+        ))}
+      </div>
+    </div>
+
+    {/* Tools */}
+    <div className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
+      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
+
+      <h3 className="font-bold mb-3 text-cyan-500 uppercase tracking-wider text-sm print:text-black">
+        Tools
+      </h3>
+
+      <div className="flex flex-wrap gap-2">
+        {data.skills.tools.map((s) => (
+          <span
+            key={s}
+            className="px-3 py-1 bg-surface-container-highest border border-outline-variant/10 rounded-lg text-xs font-bold print:border-gray-200"
+          >
+            {s}
+          </span>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>
           
     <section>
 <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-6 border-b border-green-500/20 pb-2 print:text-black">
@@ -140,19 +184,19 @@ const ResumePage = () => {
             </h2>
             <div className="space-y-8">
               {data.experience.map((exp, i) => (
-                <div key={i} className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
-                  <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
-                  <div className="flex flex-col sm:flex-row justify-between items-start gap-2 mb-2">
-                    <h3 className="text-xl font-bold text-on-background print:text-black">{exp.role}</h3>
-                    <span className="text-sm font-bold text-green-500 opacity-80 print:text-black">{exp.period}</span>
+<div key={i} className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
+<div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
+      <div className="flex flex-col sm:flex-row justify-between items-start gap-2 mb-2">
+      <h3 className="text-xl font-bold text-on-background print:text-black">{exp.role}</h3>
+<span className="text-sm font-bold text-green-500 opacity-80 print:text-black">{exp.period}</span>
                   </div>
-                  <p className="text-sm font-black text-cyan-500 mb-3 print:text-black">{exp.company}</p>
-                  <p className="text-on-surface-variant text-base leading-relaxed mb-4 print:text-black">
+<p className="text-sm font-black text-cyan-500 mb-3 print:text-black">{exp.company}</p>
+<p className="text-on-surface-variant text-base leading-relaxed mb-4 print:text-black">
                     {exp.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {exp.tags.map(t => (
-                      <span key={t} className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant/60">{t}</span>
+<span key={t} className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant/60">{t}</span>
                     ))}
                   </div>
                 </div>
