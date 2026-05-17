@@ -78,7 +78,7 @@ const ResumePage = () => {
             </motion.p>
           </div>
           
-          <div className="flex flex-col gap-2 text-sm sm:text-base opacity-60 font-medium">
+          <div className="flex flex-col gap-2 text-sm sm:text-base opacity-100 font-medium">
             <h1 className="text-2xl font-bold mt-2">Contact me</h1>
             <span className="flex items-center gap-2">
               <span className="material-symbols-outlined text-sm">phone</span>
