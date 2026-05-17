@@ -1,5 +1,7 @@
 # 🚀 Ashikur Rahman — Developer Portfolio
 
+🔗 Live Demo:https:https://ashikur-rahman-dev.vercel.app/
+
 A modern, high-performance, fully responsive portfolio website built with Next.js, Tailwind CSS, Framer Motion, and GSAP.
 Designed to showcase projects, skills, services, and interactive UI/UX experiences with smooth animations and premium aesthetics.
 
