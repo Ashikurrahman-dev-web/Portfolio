@@ -78,7 +78,7 @@ const ResumePage = () => {
             </motion.p>
           </div>
           <div className="flex flex-col gap-2 text-sm sm:text-base opacity-80 font-medium">
-            <h1 className="text-xl sm:text-2xl font-bold opacity-90 mt-2">Contact me</h1>
+            <h1 className="text-2xl font-bold mt-2">Contact me</h1>
             <span className="flex items-center gap-2">
               <span className="material-symbols-outlined text-sm">phone</span>
               {data.contact.phone}
@@ -88,7 +88,7 @@ const ResumePage = () => {
               {data.contact.email}
             </span>
             <span className="flex items-center gap-2">
-              <span className="material-symbols-outlined text-sm">linkedin</span>
+              <span className="material-symbols-outlined text-sm">linkedIn</span>
               {data.contact.linkedin}
             </span>
             <span className="flex items-center gap-2">
@@ -99,16 +99,36 @@ const ResumePage = () => {
         </header>
 
         <div className="p-8 sm:p-12 space-y-10">
-          
           <section>
-            <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-4 border-b border-green-500/20 pb-2 print:text-black">
-              Profile
-            </h2>
-            <p className="text-on-surface-variant leading-relaxed text-lg print:text-black">
-              {data.summary}
-            </p>
-          </section>
+  <div className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
+    
+    <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
+
+    <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-4 border-b border-green-500/20 pb-2 print:text-black">
+      Personal Information
+    </h2>
+
+    <p className="text-on-surface-variant leading-relaxed text-lg print:text-black">
+     Date of Birth: 19th October 1996 
+    </p>
+  </div>
+</section>
           <section>
+  <div className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
+    
+    <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
+
+    <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-4 border-b border-green-500/20 pb-2 print:text-black">
+      Profile
+    </h2>
+
+    <p className="text-on-surface-variant leading-relaxed text-lg print:text-black">
+      {data.summary}
+    </p>
+
+  </div>
+</section>
+<section>
   <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-6 border-b border-green-500/20 pb-2 print:text-black">
     Technical Expertise
   </h2>
@@ -203,23 +223,61 @@ const ResumePage = () => {
               ))}
             </div>
           </section>
+<section>
+  <div className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200">
+    
+    <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
 
+    <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-4 border-b border-green-500/20 pb-2 print:text-black">
+      Languages
+    </h2>
+
+    <p className="text-on-surface-variant leading-relaxed text-lg print:text-black">
+      Bengali: Native  
+    </p>
+    <p className="text-on-surface-variant leading-relaxed text-lg print:text-black">
+      English: Fluent  
+    </p>
+    <p className="text-on-surface-variant leading-relaxed text-lg print:text-black">
+      Arabic: Fluent  
+    </p>
+  </div>
+</section>
           {/* Education */}
           <section>
-            <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-6 border-b border-green-500/20 pb-2 print:text-black">
-              Education
-            </h2>
-            <div className="grid sm:grid-cols-2 gap-8">
-              {data.education.map((edu, i) => (
-                <div key={i} className="space-y-1">
-                  <h3 className="text-lg font-bold text-on-background print:text-black">{edu.degree}</h3>
-                  <p className="text-sm font-bold text-cyan-500 print:text-black">{edu.institution}</p>
-                  <p className="text-xs text-on-surface-variant font-medium print:text-black">{edu.board} • {edu.period}</p>
-                  <p className="text-sm font-black text-green-500 mt-2 print:text-black">{edu.result}</p>
-                </div>
-              ))}
-            </div>
-          </section>
+  <h2 className="text-2xl font-black uppercase tracking-widest text-green-500 mb-6 border-b border-green-500/20 pb-2 print:text-black">
+    Education
+  </h2>
+
+  <div className="grid sm:grid-cols-2 gap-8">
+    {data.education.map((edu, i) => (
+      <div
+        key={i}
+        className="relative pl-6 border-l-2 border-green-500/20 print:border-gray-200"
+      >
+        <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 print:bg-black" />
+
+        <div className="space-y-1">
+          <h3 className="text-lg font-bold text-on-background print:text-black">
+            {edu.degree}
+          </h3>
+
+          <p className="text-sm font-bold text-cyan-500 print:text-black">
+            {edu.institution}
+          </p>
+
+          <p className="text-xs text-on-surface-variant font-medium print:text-black">
+            {edu.board} • {edu.period}
+          </p>
+
+          <p className="text-sm font-black text-green-500 mt-2 print:text-black">
+            {edu.result}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
         </div>
 
     
@@ -228,14 +286,6 @@ const ResumePage = () => {
             <span className="material-symbols-outlined">arrow_back</span>
             Back to Portfolio
           </Link>
-          <a
-  href="/Resume.pdf"
-  download
-  className="bg-gradient-to-r from-green-500 via-cyan-500 text-white px-8 py-3 rounded-xl font-bold shadow-xl shadow-green-500/20 hover:scale-105 transition-all flex items-center gap-2"
->
-  <span className="material-symbols-outlined">download</span>
-  Download Resume
-</a>
           <button 
             onClick={handlePrint}
             className="bg-gradient-to-r from-green-500 via-cyan-500 text-white px-8 py-3 rounded-xl font-bold shadow-xl shadow-green-500/20 hover:scale-105 transition-all flex items-center gap-2"
