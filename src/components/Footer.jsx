@@ -11,8 +11,8 @@ const Footer = () => {
     <div className="flex flex-col items-center lg:items-start gap-4 text-center lg:text-left">
       
       {/* Logo */}
-      <Link
-        href="/#home"
+      <div
+       
         className="flex items-center gap-3 group"
       >
         <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform duration-500 bg-black border border-outline-variant/20 dark:border-white/10">
@@ -32,7 +32,7 @@ const Footer = () => {
             R
           </span>
         </span>
-      </Link>
+      </div>
 
       {/* Copyright */}
       <p className="max-w-xl text-[10px] sm:text-[11px] font-heading font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] leading-relaxed text-on-surface-variant/80 px-2 sm:px-0">

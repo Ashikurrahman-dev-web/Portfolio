@@ -8,7 +8,7 @@ const CTA = () => {
     <section className="px-4 sm:px-6 lg:px-8 py-[80px] sm:py-[110px] lg:py-[130px]">
   <div className="max-w-7xl mx-auto">
     
-    <div className="glass-card relative overflow-hidden rounded-[32px] sm:rounded-[40px] lg:rounded-[48px] border border-primary/20 px-5 sm:px-8 lg:px-16 py-[70px] sm:py-[90px] lg:py-[110px] text-center">
+    <div className="glass-card relative overflow-hidden rounded-[32px] sm:rounded-[40px] lg:rounded-[48px] border border-green-500/20 px-5 sm:px-8 lg:px-16 py-[70px] sm:py-[90px] lg:py-[110px] text-center">
       
       {/* Ambient Glows */}
       <div className="absolute -bottom-24 -right-24 w-[260px] sm:w-[400px] lg:w-[500px] h-[260px] sm:h-[400px] lg:h-[500px] bg-cyan-900/20 rounded-full blur-[90px] sm:blur-[120px]" />
