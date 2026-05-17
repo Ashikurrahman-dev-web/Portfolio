@@ -77,9 +77,9 @@ const ResumePage = () => {
               {data.title}
             </motion.p>
           </div>
-          <h1 className="text-2xl font-bold mt-2">Contact me</h1>
-          <div className="flex flex-col gap-2 text-sm sm:text-base opacity-80 font-medium">
-            
+          
+          <div className="flex flex-col gap-2 text-sm sm:text-base opacity-60 font-medium">
+            <h1 className="text-2xl font-bold mt-2">Contact me</h1>
             <span className="flex items-center gap-2">
               <span className="material-symbols-outlined text-sm">phone</span>
               {data.contact.phone}
@@ -291,8 +291,8 @@ const ResumePage = () => {
             onClick={handlePrint}
             className="bg-gradient-to-r from-green-500 via-cyan-500 text-white px-8 py-3 rounded-xl font-bold shadow-xl shadow-green-500/20 hover:scale-105 transition-all flex items-center gap-2"
           >
-            <span className="material-symbols-outlined">print</span>
-            Print PDF
+            <span className="material-symbols-outlined">print<span>download</span></span>
+            Print/Download
           </button>
         </div>
       </div>
