@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-
+import { CiLinkedin } from "react-icons/ci";
 const ResumePage = () => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -77,8 +77,9 @@ const ResumePage = () => {
               {data.title}
             </motion.p>
           </div>
+          <h1 className="text-2xl font-bold mt-2">Contact me</h1>
           <div className="flex flex-col gap-2 text-sm sm:text-base opacity-80 font-medium">
-            <h1 className="text-2xl font-bold mt-2">Contact me</h1>
+            
             <span className="flex items-center gap-2">
               <span className="material-symbols-outlined text-sm">phone</span>
               {data.contact.phone}
@@ -88,7 +89,7 @@ const ResumePage = () => {
               {data.contact.email}
             </span>
             <span className="flex items-center gap-2">
-              <span className="material-symbols-outlined text-sm">linkedIn</span>
+              <span className="material-symbols-outlined text-sm"><CiLinkedin /></span>
               {data.contact.linkedin}
             </span>
             <span className="flex items-center gap-2">
