@@ -79,7 +79,7 @@ const Projects = () => {
       </span>
 
       <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black text-on-background mt-3">
-        Portfolio
+        Projects I've Built
       </h2>
     </div>
 
