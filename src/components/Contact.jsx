@@ -46,7 +46,7 @@ const Contact = () => {
     </div>
 
     {/* Content */}
-    <div className="flex flex-wrap gap-6 justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 justify-center">
       
       {contactMethods.map((method, i) => (
         <Magnetic key={i} strength={0.1}>
