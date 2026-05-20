@@ -46,7 +46,7 @@ const Contact = () => {
     </div>
 
     {/* Content */}
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 justify-center">
+    <div className="flex flex-wrap gap-6 justify-center">
       
       {contactMethods.map((method, i) => (
         <Magnetic key={i} strength={0.1}>
@@ -56,7 +56,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="glass-card group flex flex-col items-center text-center rounded-[28px] sm:rounded-[32px] border border-green-500/5 hover:border-green-500/30 shadow-xl hover:shadow-[0_20px_50px_rgba(37,99,235,0.12)] p-6 sm:p-8 hover:bg-surface-container-high/60 transition-all duration-500 h-full"
+className="glass-card group flex flex-col items-center text-center rounded-[28px] sm:rounded-[32px] border border-green-500/5 hover:border-green-500/30 shadow-xl hover:shadow-[0_20px_50px_rgba(37,99,235,0.12)] p-6 sm:p-8 hover:bg-surface-container-high/60 transition-all duration-500 h-full"
           >
             
             {/* Icon */}
