@@ -29,7 +29,7 @@ const Projects = () => {
       description: "Friends-find is a modern relationship management web application that helps users keep track of their friends and stay connected. It allows users to monitor interaction frequency, set goals, and log communication activities like calls, texts, and video chats.",
       tags: ["React-Router", "React", "Netlify"],
       image: "https://images.openai.com/static-rsc-4/WCu_4mRQu_85Qib8sROSiraZuk2ZLgKDKvdIV-HPtKjqDZkFpbYfDAYo5sn7vEdKwVTyg9xUljiGbtOzmTFteCCobfEdmWioPOYNzljUJup_2r5bf0uLDtQgCoio2So9bQBleulur2728NDUQk6pah2fAFQv33JzLybhrNr1M9Y?purpose=inline",
-      liveLink: "https://darling-praline-a4af6a.netlify.app/",
+      liveLink: "https://friends-find.netlify.app/",
       repoLink: "https://github.com/Ashikurrahman-dev-web/React-Router"
     },
     {
@@ -37,7 +37,7 @@ const Projects = () => {
       description: "DigiTools is a modern React-based web application that empowers users to explore, select, and manage premium digital resources such as AI tools, templates, and productivity software. The platform is designed with a clean interface, responsive layouts, and a seamless user experience.",
       tags: ["React", "JavaScript", "Netlify"],
       image: "https://images.openai.com/static-rsc-4/4V9VOP6EHzkPDTSZpbRqQbPC5bLUiR8JaFKvV_yAHYx_IUAXWVGpUAWloNzErU83dbB3MgVXnyYttsuldETknovop5EkfFfJ9MzDkYAuveMPMZAX3UOuIoVZYFBD7cGu25VEBdyfxC3JbPRR39qdaViudY3CcJPkH5vPS9jmJ6A?purpose=inline",
-      liveLink: "https://friends-find.netlify.app/",
+      liveLink: "https://darling-praline-a4af6a.netlify.app/",
       repoLink: "https://github.com/Ashikurrahman-dev-web/React"
     }
   ];
