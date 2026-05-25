@@ -61,9 +61,9 @@ color: "bg-blue-500/10",
     setSubmitStatus(null);
 
     const formData = new FormData(e.target);
-    
+    const ACCESS_KEY = process.env.NEXT_PUBLIC_ACCESS_KEY;
     // নিচে 'YOUR_ACCESS_KEY_HERE' এর জায়গায় Web3Forms থেকে পাওয়া ফ্রি কী-টি বসাবেন
-    formData.append("access_key", "d980ff3a-f28e-45e5-9330-dab71ecf382a");
+    formData.append("access_key", ACCESS_KEY);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
