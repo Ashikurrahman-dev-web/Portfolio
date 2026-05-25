@@ -27,11 +27,11 @@ const Contact = () => {
     {
 
       icon: "in",
-title: "LINKEDIN",
-value: "Ashikur Rahman",
-link: "https://www.linkedin.com/in/ashikur-rahman-6559a93b3",
-color: "bg-blue-500/10",
- isTextIcon: true
+      title: "LINKEDIN",
+      value: "Ashikur Rahman",
+      link: "https://www.linkedin.com/in/ashikur-rahman-6559a93b3",
+      color: "bg-blue-500/10",
+      isTextIcon: true
 }
   ];
 
@@ -127,7 +127,7 @@ className="glass-card p-8 text-center flex flex-col items-center border border-g
                     href={method.link}
                     target="_blank"
                     rel="me noopener noreferrer"
-                    className="text-primary text-xs font-bold uppercase tracking-widest hover:underline flex items-center gap-2 group-hover:gap-3 transition-all"
+                    className="text-green-500 text-xs font-bold uppercase tracking-widest hover:underline flex items-center gap-2 group-hover:gap-3 transition-all"
                   >
                     Write me
                     <span className="material-symbols-outlined text-sm">arrow_forward</span>
