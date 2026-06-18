@@ -17,6 +17,14 @@ const Projects = () => {
 
   const allProjects = [
     {
+      title: "IdeasVault",
+      description: "IdeasVault is a full-stack web application where users can create, manage, and interact with ideas. Users can securely authenticate using Email/Password or Google Login, share ideas, comment on ideas, and manage their own content through a protected dashboard.",
+      tags: [ "Next.js, Better Auth, Node.js, Express.js, MongoDB, JWT Authentication"],
+      image: "https://unsplash.com/photos/programming-code-abstract-technology-background-of-software-developer-and-computer-script-ltpb_WinC3Y",
+      liveLink: "https://ideas-vault-alpha.vercel.app/",
+      repoLink: "https://github.com/Ashikurrahman-dev-web/IdeasVault"
+    },
+    {
       title: "Course Hub",
       description: "CourseHub provide premium courses, exclusive content, and personalized learning paths to accelerate your growth and stay ahead in the modern world.",
       tags: [ "Next.js", "MongoDB", "Vercel"],
