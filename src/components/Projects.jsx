@@ -19,7 +19,7 @@ const Projects = () => {
     {
       title: "AgriTech",
 description: "A modern AI-powered Smart Agriculture Platform designed to help farmers make better decisions through crop disease detection, soil analysis, weather information, crop planning, market prices, and real-time communication with agricultural experts.",
-tags: [ "Next.js", "Better Auth", "Node.js", "Express.js", "PostgreSql", "Socket.io"],
+tags: [ "Next.js", "TypeScript", "Better Auth", "Node.js", "Express.js", "PostgreSql", "Socket.io"],
       image: "https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       liveLink: "https://agriculture-delta-ochre.vercel.app",
       repoLink: "https://github.com/Ashikurrahman-dev-web/Agriculture"
