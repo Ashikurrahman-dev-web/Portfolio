@@ -286,7 +286,7 @@ className="absolute left-0 top-1/2 -translate-y-1/2 font-black text-transparent 
 
         {/* Button 2 */}
         <Magnetic strength={0.2}>
-          <Link href="/resume">
+  <a href="https://drive.google.com/file/d/1OqctnhLWi64wQGTSORR8cj_-OlFRST4L/view?usp=sharing">
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.95 }}
@@ -298,7 +298,7 @@ className="absolute left-0 top-1/2 -translate-y-1/2 font-black text-transparent 
 
               View Resume
             </motion.div>
-          </Link>
+          </a>
         </Magnetic>
 
         {/* Button 3 */}
