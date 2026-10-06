@@ -286,7 +286,7 @@ className="absolute left-0 top-1/2 -translate-y-1/2 font-black text-transparent 
 
         {/* Button 2 */}
         <Magnetic strength={0.2}>
-  <a href="https://drive.google.com/file/d/1-G27x5BiIJrZybfwIzLbswSsXbnqAPdP/view?usp=sharing">
+  <a href="https://drive.google.com/file/d/1PmiSifuUzRT1ExWn0TJ-j_mrkY5CoXN5/view?usp=sharing">
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.95 }}
