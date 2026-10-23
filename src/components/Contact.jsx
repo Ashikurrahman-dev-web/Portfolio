@@ -13,14 +13,14 @@ const Contact = () => {
     {
       icon: "✉️",
       title: "EMAIL",
-      value: "developersconsturct@gmail.com",
+      value: "ashikurrahman88722@gmail.com",
       link: "https://accounts.google.com/b/0/AddMailService",
       color: "bg-blue-500/10"
     },
     {
       icon: "💬",
       title: "WHATSAPP",
-      value: "+8801941-453299",
+      value: "+8801989815238",
       link: "https://wa.me/8801941453299",
       color: "bg-cyan-500/10"
     },

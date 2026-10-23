@@ -36,11 +36,11 @@ export default function HireMePage() {
             <div className="flex justify-center gap-6 mt-12">
               <Magnetic strength={0.2}>
                 <a 
-                  href="#contact"
-                  className="bg-gradient-to-r from-green-500 via-cyan-500 text-white px-10 py-5 rounded-2xl font-bold text-sm uppercase tracking-widest shadow-xl shadow-green-500/20 hover:opacity-90 transition-all active:scale-95"
-                >
-                  Start a Project
-                </a>
+  href="#contact"
+  className="inline-block bg-gradient-to-r from-green-500 via-cyan-500 to-green-500 text-white px-5 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 rounded-2xl font-bold text-xs sm:text-sm uppercase tracking-widest shadow-xl shadow-green-500/20 hover:opacity-90 transition-all active:scale-95 text-center"
+>
+  Start a Project
+</a>
               </Magnetic>
               <Magnetic strength={0.2}>
                 <a 
