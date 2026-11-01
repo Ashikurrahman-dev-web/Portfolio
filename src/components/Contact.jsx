@@ -14,14 +14,14 @@ const Contact = () => {
       icon: "✉️",
       title: "EMAIL",
       value: "ashikurrahman88722@gmail.com",
-      link: "https://accounts.google.com/b/0/AddMailService",
+      link: "mailto:ashikurrahman88722@gmail.com",
       color: "bg-blue-500/10"
     },
     {
       icon: "💬",
       title: "WHATSAPP",
       value: "+8801989815238",
-      link: "https://wa.me/8801941453299",
+      link: "https://wa.me/8801989815238",
       color: "bg-cyan-500/10"
     },
     {
