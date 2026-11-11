@@ -144,7 +144,7 @@ const Hero = () => {
                 duration: 0.8,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="text-[2.3rem] sm:text-[3.5rem] md:text-[5rem] leading-[1] tracking-tight font-black text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-cyan-500"
+className="text-[2.3rem] sm:text-[3.5rem] md:text-[5rem] leading-[1] tracking-tight font-black text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-cyan-500"
             >
               {sequence[sequenceIndex]}
             </motion.h1>
@@ -351,7 +351,7 @@ className="absolute left-0 top-1/2 -translate-y-1/2 font-black text-transparent 
           
           <div className="relative w-full h-full rounded-full overflow-hidden bg-black/40">
             <Image
-              src="/C.png"
+              src="/Ashik.png"
               fill
               alt="Ashikur Rahman - Full-Stack Developer"
               priority
